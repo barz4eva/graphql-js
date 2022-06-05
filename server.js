@@ -13,7 +13,7 @@ import { graphql } from 'graphql';
 dotenv.config();
 
 const graphQlPath = process.env.GRAPHQL_PATH;
-const port = process.env.PORT;
+const port = process.env.PORT || 8080;
 const dbUrl = process.env.MONGODB_URL
 
 mongoose.connect(dbUrl, {

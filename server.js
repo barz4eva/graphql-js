@@ -62,7 +62,7 @@ async function startApolloServer() {
 
 await new Promise(resolve => httpServer.listen({ port }, resolve))
 
-console.log('Server started at http://localhost:${port}')
+console.log(`Server started at http://localhost:${port}/${graphQlPath}`)
 return{ server, app }
 
 }

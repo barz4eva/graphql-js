@@ -2,6 +2,7 @@
   "name": "graphql-pavlin",
   "version": "1.0.0",
   "description": "",
+  "type": "commonjs",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
